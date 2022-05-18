@@ -1,0 +1,16 @@
+
+github:
+  apiServer: "https://api.github.com"
+  interval: 1h
+  logFile: log/gh.log
+  orgs:
+    - name: dgeorgievski
+      token: get-one-from-your-github-profile
+      repos:
+        - k3s-ha-on-prem
+        - kubernetes-aws-kops
+        - aws-eks-pulumi
+      
+        
+    
+    
